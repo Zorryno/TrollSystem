@@ -1,0 +1,79 @@
+PickItem:
+  TopRightTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFhNjhkNWI4N2ZiYTYyNDc2ODA4YTBkOWE3NWMzZGRmMWJjMjZjMGIwZjRkMmRlMzZjNzg4NDNhZjEyOSJ9fX0="
+  ButtomLeftTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZjZjM5NWE3MWQ0MmYyYjQ3Zjk4NDlhYWY4ZmVkYTc1YWJiNDI3NWQ3ZDkzYTFiZGM1YzBlMzNjNzljMDE1In19fQ=="
+RandomPrice: 100.00
+RandomItem:
+  Name: "Random Troll"
+  Lore:
+    - "Random Troll"
+  Item: "NETHER_STAR"
+TrollDelay:
+  #Delay in seconds
+  NormalDelay: 300
+  PremiumDelay: 150
+  PremiumPlayers:
+    - "528deb49-88f2-4d01-beaa-eec09121645a"
+    - "f9cf6fcb-75a1-4488-b555-4dc79faeac45"
+Trolls:
+  Demo:
+    Name: "Demo"
+    Lore:
+      - "Demo Troll"
+    Price: 100
+    Item: "GRASS_BLOCK"
+  End:
+    Name: "End"
+    Lore:
+      - "End Troll"
+    Price: 100
+    Item: "END_PORTAL_FRAME"
+  Creeper:
+    Name: "Creeper"
+    Lore:
+      - "Creeper Troll"
+    Price: 100
+    Item: "CREEPER_HEAD"
+  Partikel:
+    Name: "Partikel Spam"
+    Lore:
+      - "Partikel Troll"
+    Price: 100
+    Item: "BARRIER"
+  TNT:
+    Name: "TNT Hölle"
+    Lore:
+      - "TNT Troll"
+    Price: 100
+    Item: "TNT"
+  Speed:
+    Name: "Speed"
+    Lore:
+      - "Speed Troll"
+    Price: 100
+    Item: "POTION"
+  SwapItem:
+    Name: "Hände vertauschen"
+    Lore:
+      - "Lässt den spieler sein aktuell ausgewähltes Item mit der Offhand tauschen"
+      - "Preis: 75"
+    Price: 75
+    Item: "GOLDEN_SWORD"
+  RandomizeInventory:
+    Name: "Inventar Mischen"
+    Lore:
+      - "Macht das Inventar durcheinander"
+      - "Preis: 120"
+    Price: 120
+    Item: "CHEST"
+CommandTrolls:
+  Example:
+    Name: "Example"
+    Lore:
+      - "Example Troll"
+    Price: 100
+    Duration: 0
+    Item: "COMMAND_BLOCK"
+    StartCommands:
+      - "trollstart %player%"
+    StopCommands:
+      - "trollstart %player%"

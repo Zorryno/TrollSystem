@@ -1,0 +1,6 @@
+name: TrollSystem
+version: '${project.version}'
+main: de.zorryno.trollsystem.Trollsystem
+api-version: 1.19
+commands:
+  troll:

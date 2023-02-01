@@ -1,0 +1,11 @@
+TrollInventory:
+  PlayerMenue:
+    Name: "Select a Player"
+  TrollMenue:
+    Name: "Select a Troll"
+PlayerNotFound: "Spieler wurde nicht gefunden"
+PlayerWentOffline: "Spieler hat sich ausgeloggt"
+TrolledBy: "Du wirst jetzt von %player% getrollt"
+TrollDelay: "Bitte warte %timeMin% Minute/n und %timeSec% Sekunde/n bevor du diesen Spieler wieder Trollen kannst."
+NotEnoughMoney: "Du hast nicht genügend Geld"
+WithdrawMoney: "Dir wurden %price%€ abgezogen"
